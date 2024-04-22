@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "homework11"
+version = "0.1.0"
+description = ""
+authors = ["Aryna Reutska <arina.reutskaya110@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.1"
+uvicorn = {extras = ["standard"], version = "^0.29.0"}
+sqlalchemy = "^2.0.29"
+psycopg2 = "^2.9.9"
+alembic = "^1.13.1"
+email-validator = "^2.1.1"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+pydantic = {extras = ["email"], version = "^2.7.0"}
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+python-multipart = "^0.0.9"
+slowapi = "^0.1.9"
+python-dotenv = "^1.0.1"
+fastapi-mail = "^1.4.1"
+cloudinary = "^1.40.0"
+pydantic-settings = "^2.2.1"
+bcrypt = "^4.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
